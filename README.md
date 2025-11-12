@@ -3,7 +3,7 @@
 
 ## 🖼️ Application Screenshot
 
-![App Screenshot](public/screenshot.png)
+![App Screenshot](public/screenshots/screenshot.png)
 
 
 ## Project overview
