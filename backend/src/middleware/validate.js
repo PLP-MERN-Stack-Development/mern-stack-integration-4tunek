@@ -1,5 +1,3 @@
-// src/middleware/validate.js
-// Middleware to validate request body against a Joi schema
 module.exports = (schema) => {
   if (!schema || typeof schema.validate !== 'function') {
     throw new Error(
