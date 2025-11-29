@@ -6,6 +6,7 @@
 ![App Screenshot](public/screenshots/screenshot.png)
 
 
+
 ## Project overview
 A full-stack MERN (MongoDB, Express, React, Node) blog application demonstrating end-to-end integration between front-end and back-end, including:
 - RESTful API for posts and categories
