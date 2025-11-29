@@ -8,9 +8,7 @@ const jwt = require('jsonwebtoken');
 const validate = require('../middleware/validate');
 const userSchema = require('../schemas/userSchema'); // create this file
 
-// -----------------------------
-// REGISTER route with validation
-// -----------------------------
+
 router.post('/register', validate(userSchema), async (req, res) => {
   try {
     const { name, email, password } = req.body;
